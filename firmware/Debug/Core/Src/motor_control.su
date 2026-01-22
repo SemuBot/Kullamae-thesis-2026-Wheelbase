@@ -1,0 +1,17 @@
+../Core/Src/motor_control.c:21:19:MotorControl_InitAll	144	static
+../Core/Src/motor_control.c:46:19:MotorControl_Init	184	static
+../Core/Src/motor_control.c:114:19:MotorControl_ConfigureDRV8353	168	static
+../Core/Src/motor_control.c:148:19:MotorControl_Start	168	static
+../Core/Src/motor_control.c:194:19:MotorControl_Stop	88	static
+../Core/Src/motor_control.c:215:19:MotorControl_Brake	88	static
+../Core/Src/motor_control.c:232:19:MotorControl_SetDuty	24	static
+../Core/Src/motor_control.c:243:19:MotorControl_Ramp	32	static
+../Core/Src/motor_control.c:276:19:MotorControl_ChangeDirection	24	static
+../Core/Src/motor_control.c:288:19:MotorControl_CheckFaults	24	static
+../Core/Src/motor_control.c:303:19:MotorControl_ClearFaults	24	static
+../Core/Src/motor_control.c:308:14:MotorControl_GetState	16	static
+../Core/Src/motor_control.c:312:6:MotorControl_PrintStatus	344	static
+../Core/Src/motor_control.c:333:6:MotorControl_PrintAllStatus	80	static
+../Core/Src/motor_control.c:348:6:MotorControl_EmergencyStopAll	16	static
+../Core/Src/motor_control.c:359:13:_MotorControl_ApplyBrake	24	static
+../Core/Src/motor_control.c:364:13:_MotorControl_SetPWM	32	static
