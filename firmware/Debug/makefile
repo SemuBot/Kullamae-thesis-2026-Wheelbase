@@ -64,8 +64,8 @@ all: main-build
 main-build: wheelbase_main.elf secondary-outputs
 
 # Tool invocations
-wheelbase_main.elf wheelbase_main.map: $(OBJS) $(USER_OBJS) /home/medved/repos/Firmware/wheelbase/code/STM32F303RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "wheelbase_main.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/medved/repos/Firmware/wheelbase/code/STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="wheelbase_main.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+wheelbase_main.elf wheelbase_main.map: $(OBJS) $(USER_OBJS) /home/medved/Kullamae-thesis-2026-Wheelbase/firmware/STM32F303RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "wheelbase_main.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/medved/Kullamae-thesis-2026-Wheelbase/firmware/STM32F303RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="wheelbase_main.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
