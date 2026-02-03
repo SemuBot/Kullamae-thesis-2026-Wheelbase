@@ -9,6 +9,6 @@ firmware/Release/
 *.list
 *.cyclo
 
-*.launch
 .settings/
+*.launch
 
