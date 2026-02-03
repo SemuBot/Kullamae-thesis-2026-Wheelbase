@@ -1,0 +1,24 @@
+[0.607s] Invoking command in '/home/semubot/microros_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/semubot/microros_subscriber/build/microros_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/semubot/microros_subscriber/install/microros_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/microros_subscriber build --build-base /home/semubot/microros_subscriber/build/microros_subscriber/build install --record /home/semubot/microros_subscriber/build/microros_subscriber/install.log --single-version-externally-managed install_data
+[0.784s] running egg_info
+[0.790s] writing build/microros_subscriber/microros_subscriber.egg-info/PKG-INFO
+[0.790s] writing dependency_links to build/microros_subscriber/microros_subscriber.egg-info/dependency_links.txt
+[0.791s] writing entry points to build/microros_subscriber/microros_subscriber.egg-info/entry_points.txt
+[0.791s] writing requirements to build/microros_subscriber/microros_subscriber.egg-info/requires.txt
+[0.791s] writing top-level names to build/microros_subscriber/microros_subscriber.egg-info/top_level.txt
+[0.805s] reading manifest file 'build/microros_subscriber/microros_subscriber.egg-info/SOURCES.txt'
+[0.805s] writing manifest file 'build/microros_subscriber/microros_subscriber.egg-info/SOURCES.txt'
+[0.805s] running build
+[0.805s] running build_py
+[0.805s] copying microros_subscriber/data_subscriber.py -> /home/semubot/microros_subscriber/build/microros_subscriber/build/lib/microros_subscriber
+[0.805s] running install
+[0.808s] running install_lib
+[0.815s] copying /home/semubot/microros_subscriber/build/microros_subscriber/build/lib/microros_subscriber/data_subscriber.py -> /home/semubot/microros_subscriber/install/microros_subscriber/lib/python3.12/site-packages/microros_subscriber
+[0.815s] byte-compiling /home/semubot/microros_subscriber/install/microros_subscriber/lib/python3.12/site-packages/microros_subscriber/data_subscriber.py to data_subscriber.cpython-312.pyc
+[0.815s] running install_data
+[0.816s] running install_egg_info
+[0.823s] removing '/home/semubot/microros_subscriber/install/microros_subscriber/lib/python3.12/site-packages/microros_subscriber-0.0.0-py3.12.egg-info' (and everything under it)
+[0.823s] Copying build/microros_subscriber/microros_subscriber.egg-info to /home/semubot/microros_subscriber/install/microros_subscriber/lib/python3.12/site-packages/microros_subscriber-0.0.0-py3.12.egg-info
+[0.823s] running install_scripts
+[0.875s] Installing data_subscriber script to /home/semubot/microros_subscriber/install/microros_subscriber/lib/microros_subscriber
+[0.876s] writing list of installed files to '/home/semubot/microros_subscriber/build/microros_subscriber/install.log'
+[0.894s] Invoked command in '/home/semubot/microros_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/semubot/microros_subscriber/build/microros_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/semubot/microros_subscriber/install/microros_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/microros_subscriber build --build-base /home/semubot/microros_subscriber/build/microros_subscriber/build install --record /home/semubot/microros_subscriber/build/microros_subscriber/install.log --single-version-externally-managed install_data

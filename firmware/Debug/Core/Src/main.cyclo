@@ -1,5 +1,0 @@
-../Core/Src/main.c:63:5:main	9
-../Core/Src/main.c:342:6:DRV8353_CalibrateCSAs	1
-../Core/Src/main.c:368:6:DRV8353_RawSPITest	3
-../Core/Src/main.c:387:6:SystemClock_Config	1
-../Core/Src/main.c:412:6:Error_Handler	1

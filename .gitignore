@@ -1,0 +1,14 @@
+firmware/Debug/
+firmware/Release/
+
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+*.cyclo
+
+*.launch
+.settings/
+

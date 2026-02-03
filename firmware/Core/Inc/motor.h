@@ -1,56 +1,67 @@
 /*
- * motor.h
- *
- *  Created on: Nov 18, 2024
- *      Author: medved
- *  Updated: Dec 09, 2024 - Added DRV8353 SPI support
+ * motor.h - Motor Control Layer Header
  */
 
-#ifndef INC_MOTOR_H_
-#define INC_MOTOR_H_
+#ifndef MOTOR_H
+#define MOTOR_H
 
-#include "stm32f3xx_hal.h"
-#include "drv8353.h"
+#include "main.h"
+#include "tim.h"
 
-// Motor angle definitions (in radians) for 120-degree spacing
-#define motor1_angle 0.0f                    // 0 degrees
-#define motor2_angle 2.0944f                 // 120 degrees (2π/3)
-#define motor3_angle 4.1888f                 // 240 degrees (4π/3)
-
-// Robot parameters
-#define ROBOT_RADIUS 0.15f                   // Robot radius in meters
-#define PWM_SCALING_FACTOR 100.0f            // Scaling factor for PWM
-
-// Duty cycle limits
-#define DUTY_CYCLE_LIMIT 100
-#define DUTY_CYCLE_LIMIT_DEFAULT 80
-
-// Motor structure definition
+/* Motor Structure */
 typedef struct {
-    GPIO_TypeDef *dir_port;                  // Direction GPIO port
-    uint16_t dir_pin;                        // Direction GPIO pin
-    TIM_HandleTypeDef *pwm_timer;            // PWM timer handle
-    GPIO_TypeDef *pwm_port;                  // PWM GPIO port
-    uint16_t pwm_pin;                        // PWM GPIO pin
-    GPIO_TypeDef *led_port;                  // LED GPIO port
-    uint16_t led_pin;                        // LED GPIO pin
-    float duty_cycle;                        // Current duty cycle (-100 to +100)
-    uint8_t duty_cycle_limit;                // Maximum duty cycle limit
-    DRV8353_Handle *drv_handle;              // DRV8353 driver handle
+    // Hardware
+    TIM_HandleTypeDef *htim;
+    uint32_t channel;
+    GPIO_TypeDef *dir_port;
+    uint16_t dir_pin;
+    GPIO_TypeDef *led_port;
+    uint16_t led_pin;
+
+    // State
+    float current_duty;  // Current duty cycle (-100 to +100)
+    float target_duty;   // Target duty cycle for ramping
 } motor_st;
 
-// Global motor instances
-extern motor_st motor1;
-extern motor_st motor2;
-extern motor_st motor3;
+/* External Motor Instances */
+extern motor_st motor1, motor2, motor3;
 
-// Function prototypes
-void motor_init(motor_st *motor_data);
-void motor_update(motor_st *motor_data);
-void calculate_motor_duty_cycles(float linear_x, float linear_y, float omega,
-                                  motor_st *motor1, motor_st *motor2, motor_st *motor3);
-void motor_enable(motor_st *motor_data);
-void motor_disable(motor_st *motor_data);
-void motor_check_faults(void);
+/* Function Prototypes */
 
-#endif /* INC_MOTOR_H_ */
+/**
+ * @brief Set motor target duty cycle
+ * @param motor: Pointer to motor structure
+ * @param duty: Target duty cycle (-100 to +100)
+ */
+void Motor_SetDuty(motor_st *motor, float duty);
+
+/**
+ * @brief Update motor PWM (call in main loop)
+ * @param motor: Pointer to motor structure
+ */
+void Motor_Update(motor_st *motor);
+
+/**
+ * @brief Apply PWM directly to hardware
+ * @param motor: Pointer to motor structure
+ * @param duty: Duty cycle (-100 to +100)
+ */
+void Motor_ApplyPWM(motor_st *motor, float duty);
+
+/**
+ * @brief Stop motor immediately
+ * @param motor: Pointer to motor structure
+ */
+void Motor_Stop(motor_st *motor);
+
+/**
+ * @brief Stop all motors
+ */
+void Motor_StopAll(void);
+
+/**
+ * @brief Update all motors (call in main loop at ~100Hz)
+ */
+void Motor_UpdateAll(void);
+
+#endif /* MOTOR_H */

@@ -1,6 +1,0 @@
-../Core/Src/motor.c:70:6:motor_init	5
-../Core/Src/motor.c:122:6:motor_update	4
-../Core/Src/motor.c:160:6:calculate_motor_duty_cycles	1
-../Core/Src/motor.c:189:6:motor_enable	2
-../Core/Src/motor.c:201:6:motor_disable	2
-../Core/Src/motor.c:211:6:motor_check_faults	7

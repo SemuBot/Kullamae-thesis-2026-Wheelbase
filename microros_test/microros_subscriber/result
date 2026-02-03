@@ -1,0 +1,108 @@
+[1770101381.543881] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 124, data: 
+0000: 81 80 1E 00 0D 03 74 00 07 01 1C 00 00 28 00 15 00 00 00 00 00 00 00 00 03 00 00 00 37 00 00 00
+0020: 21 00 00 00 4D 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[1770101381.544067] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.544118] debug    | DataWriter.cpp     | write                    | [** <<DDS>> **]        | client_key: 0x00000001, len: 24, data: 
+0000: 00 00 00 00 00 00 00 00 03 00 00 00 37 00 00 00 21 00 00 00 4D 00 00 00
+[1770101381.544202] debug    | SerialAgentLinux.cpp | send_message             | [** <<SER>> **]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 1F 00 00 00 80
+[1770101381.544508] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.544919] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.545321] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.545733] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.546124] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.548387] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.591920] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.592035] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.592457] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.592879] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.593280] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.593710] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.595921] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.639298] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.639605] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.640002] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.640399] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.640788] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.641194] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.643448] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.686809] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.687126] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.687531] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.687925] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.688344] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.688750] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.691010] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.734290] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.734733] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.735095] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.735500] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.735888] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.736294] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.738575] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.781840] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.782209] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.782595] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.783012] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.783419] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.783816] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.786083] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.829376] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.829760] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.830156] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.830543] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.830957] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.831367] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+[1770101381.833624] debug    | SerialAgentLinux.cpp | recv_message             | [==>> SER <<==]        | client_key: 0x7D248957, len: 13, data: 
+0000: 81 00 00 00 0A 01 05 00 07 00 00 00 80
+

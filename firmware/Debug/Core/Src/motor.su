@@ -1,6 +1,0 @@
-../Core/Src/motor.c:70:6:motor_init	152	static
-../Core/Src/motor.c:122:6:motor_update	32	static
-../Core/Src/motor.c:160:6:calculate_motor_duty_cycles	216	static
-../Core/Src/motor.c:189:6:motor_enable	16	static
-../Core/Src/motor.c:201:6:motor_disable	16	static
-../Core/Src/motor.c:211:6:motor_check_faults	80	static
