@@ -14,3 +14,6 @@
 	path = wheelbase_ws/src/micro-ROS-Agent
 	url = https://github.com/micro-ROS/micro-ROS-Agent.git
 	branch = jazzy
+[submodule "semubot-firmware"]
+	path = semubot-firmware
+	url = https://github.com/SemuBot/semubot-firmware.git
