@@ -10,3 +10,6 @@
 [submodule "wheelbase_ws/src/semubot_ros_control"]
 	path = wheelbase_ws/src/semubot_ros_control
 	url = https://github.com/SemuBot/semubot_ros_control.git
+[submodule "wheelbase_ws/src/micro-ROS-Agent"]
+	path = wheelbase_ws/src/micro-ROS-Agent
+	url = https://github.com/micro-ROS/micro-ROS-Agent.git
