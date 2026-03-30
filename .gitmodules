@@ -17,3 +17,6 @@
 [submodule "semubot-firmware"]
 	path = semubot-firmware
 	url = https://github.com/SemuBot/semubot-firmware.git
+[submodule "semubot-electronics"]
+	path = semubot-electronics
+	url = https://github.com/SemuBot/semubot-electronics.git
