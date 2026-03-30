@@ -1218,7 +1218,7 @@ HAL_StatusTypeDef HAL_PCD_SetAddress(PCD_HandleTypeDef *hpcd, uint8_t address)
   */
 HAL_StatusTypeDef HAL_PCD_EP_Open(PCD_HandleTypeDef *hpcd, uint8_t ep_addr,
                                   uint16_t ep_mps, uint8_t ep_type)
-{
+w{
   HAL_StatusTypeDef  ret = HAL_OK;
   PCD_EPTypeDef *ep;
 

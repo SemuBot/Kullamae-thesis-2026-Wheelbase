@@ -1,6 +1,7 @@
 firmware/Debug/
 firmware/Release/
 
+.vscode/
 *.o
 *.d
 *.su

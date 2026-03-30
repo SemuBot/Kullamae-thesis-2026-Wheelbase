@@ -1,0 +1,12 @@
+[submodule "wheelbase_ws/src/semubot_bringup"]
+	path = wheelbase_ws/src/semubot_bringup
+	url = git@github.com:SemuBot/semubot_bringup.git
+[submodule "wheelbase_ws/src/semubot_driver"]
+	path = wheelbase_ws/src/semubot_driver
+	url = git@github.com:SemuBot/semubot_driver.git
+[submodule "wheelbase_ws/src/semubot_description"]
+	path = wheelbase_ws/src/semubot_description
+	url = git@github.com:SemuBot/semubot_description.git
+[submodule "wheelbase_ws/src/semubot_ros_control"]
+	path = wheelbase_ws/src/semubot_ros_control
+	url = https://github.com/SemuBot/semubot_ros_control.git
