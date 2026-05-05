@@ -1,3 +1,0 @@
-[console_scripts]
-data_subscriber = microros_subscriber.data_subscriber:main
-random_publisher = microros_subscriber.random_publisher:main
