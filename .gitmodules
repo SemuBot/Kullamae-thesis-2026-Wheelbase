@@ -20,3 +20,12 @@
 [submodule "firmware-onboard-pid-microros"]
 	path = firmware-onboard-pid-microros
 	url = https://github.com/SemuBot/semubot-firmware.git
+[submodule "firmware-onboard-pid-serial"]
+	path = firmware-onboard-pid-serial
+	url = https://github.com/SemuBot/semubot-firmware.git
+[submodule "firmware-ros2ctrl-microros"]
+	path = firmware-ros2ctrl-microros
+	url = https://github.com/SemuBot/semubot-firmware.git
+[submodule "firmware-ros2ctrl-serial"]
+	path = firmware-ros2ctrl-serial
+	url = https://github.com/SemuBot/semubot-firmware.git
