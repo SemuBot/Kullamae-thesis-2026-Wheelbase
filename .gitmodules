@@ -14,9 +14,6 @@
 	path = wheelbase_ws/src/micro-ROS-Agent
 	url = https://github.com/micro-ROS/micro-ROS-Agent.git
 	branch = jazzy
-[submodule "semubot-electronics"]
-	path = semubot-electronics
-	url = https://github.com/SemuBot/semubot-electronics.git
 [submodule "firmware-onboard-pid-microros"]
 	path = firmware-onboard-pid-microros
 	url = https://github.com/SemuBot/semubot-firmware.git
@@ -29,3 +26,7 @@
 [submodule "firmware-ros2ctrl-serial"]
 	path = firmware-ros2ctrl-serial
 	url = https://github.com/SemuBot/semubot-firmware.git
+[submodule "semubot-electronics"]
+	path = semubot-electronics
+	url = https://github.com/SemuBot/semubot-electronics.git
+	branch = main
